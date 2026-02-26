@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PureCast AI</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>PureCast AI</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Enter Data</h2>
+
+<input id="co2" placeholder="CO2">
+<input id="o2" placeholder="O2">
+<input id="temp" placeholder="Temperature">
+
+<button onclick="predict()">Predict</button>
+
+<p id="result"></p>
+
+</div>
+
+<div class="card">
+<h2>Forecast</h2>
+<canvas id="chart"></canvas>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
